@@ -30,7 +30,7 @@ const App: React.FC = () => {
     }
   }, []);
 
-  const openModal = () => setIsModalOpen(true);
+
   const closeModal = () => setIsModalOpen(false);
 
   const toggleChatBot = () => {

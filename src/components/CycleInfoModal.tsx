@@ -13,7 +13,6 @@ interface CycleInfoModalProps {
 const CycleInfoModal: React.FC<CycleInfoModalProps> = ({
   phase,
   ovulationInDays,
-  chanceOfPregnancy,
   symptoms,
   closeModal,
 }) => {

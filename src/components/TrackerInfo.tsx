@@ -50,7 +50,7 @@ const TrackerInfo: React.FC<TrackerInfoProps> = ({
           : "Low - chance of getting pregnant"}
       </p>
       <button className="mark-button" onClick={handleMarkButtonClick}>
-        MARK
+        View
       </button>
 
       {/* Show the modal with cycle info when the "MARK" button is clicked */}
